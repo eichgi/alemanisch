@@ -47,13 +47,6 @@ class VerbosController extends Controller
      */
     public function show($categoria, $nivel)
     {
-        /*$verbos = DB::table('verbos')
-            ->join('verbos_categorias', 'verbos_categorias.id', '=', 'verbo_categoria_id')
-            ->where('categoria', $categoria)
-            ->where('nivel', $nivel)
-            ->select('verbo', 'verb', 'ejemplo', 'exampel')
-            ->get();*/
-
         $verbos = DB::table('verbos')
             ->join('verbos_categorias', 'verbos_categorias.id', '=', 'verbo_categoria_id')
             ->where('categoria', $categoria)
