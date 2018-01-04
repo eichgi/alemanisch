@@ -16,13 +16,26 @@ class HistorialEjerciciosController extends Controller
     public function index(Request $request)
     {
         $usuario = $request->usuario_id;
-        $record = DB::select('SELECT nombre, count(*) as total
-                              FROM
-	                            historial_ejercicios
+        $categories = [];
+
+        $record = DB::select('SELECT 
+                                CONCAT(ejercicios_categorias.categoria, " ", ejercicios.categoria, " ", ejercicios.nivel) AS nombre, 
+                                COUNT(*) as total,
+                                ejercicios_categorias.categoria as categoria
+                              FROM historial_ejercicios
                               INNER JOIN ejercicios ON ejercicios.id = historial_ejercicios.ejercicio_id
+                              INNER JOIN ejercicios_categorias ON ejercicios_categorias.id = ejercicios.ejercicios_categorias_id
                               WHERE user_id = ?
                               GROUP BY historial_ejercicios.ejercicio_id', [$usuario]);
-        return response()->json(compact('record'), 200);
+        foreach ($record as $rec) {
+            $rec->nombre = ucwords($rec->nombre);
+        }
+
+        foreach ($record as $rec) {
+            $categories[$rec->categoria][] = $rec;
+        }
+
+        return response()->json(compact('categories'), 200);
     }
 
     /**
