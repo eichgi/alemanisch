@@ -60,6 +60,31 @@ class EjerciciosTableSeeder extends Seeder
             ],
             [
                 'ejercicios_categorias_id' => 2,
+                'categoria' => 'regulares',
+                'nivel' => 5,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
+                'categoria' => 'irregulares',
+                'nivel' => 1,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
+                'categoria' => 'irregulares',
+                'nivel' => 2,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
+                'categoria' => 'irregulares',
+                'nivel' => 3,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
+                'categoria' => 'irregulares',
+                'nivel' => 4,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
                 'categoria' => 'modales',
                 'nivel' => 1,
             ],

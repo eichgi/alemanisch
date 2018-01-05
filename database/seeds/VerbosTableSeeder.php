@@ -14,6 +14,8 @@ class VerbosTableSeeder extends Seeder
     public function run()
     {
         $verbos = [
+            /** REGULARES */
+
             [
                 'verbo_categoria_id' => 1,
                 'nivel' => 1,
@@ -249,6 +251,84 @@ class VerbosTableSeeder extends Seeder
                 'exampel' => 'Es ist Weihnachten Kaufen Epoche',
                 'created_at' => Carbon::now(),
             ],
+
+            /** IRREGULARES */
+
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Ofrecer',
+                'verb' => 'Bieten',
+                'ejemplo' => 'Me ofrecen un viaje gratis',
+                'exampel' => 'Sie bieten mir eine kostenlose Reise an',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Permanecer',
+                'verb' => 'Bleiben',
+                'ejemplo' => 'Todos permanecemos unidos',
+                'exampel' => 'Wir bleiben gemeinsam',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Pensar',
+                'verb' => 'Denken',
+                'ejemplo' => 'El sacerdote piensa en Dios',
+                'exampel' => 'Der Priester denkt an Gott',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Aconsejar',
+                'verb' => 'Empfehlen',
+                'ejemplo' => 'La doctora nos recomienda tomar medicamentos',
+                'exampel' => 'Die Ärztin empfiehlt uns trinken Medikamenten',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Comer',
+                'verb' => 'Essen',
+                'ejemplo' => 'Los leones comen humanos',
+                'exampel' => 'Löwen essen Menschen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Conducir',
+                'verb' => 'Fahren',
+                'ejemplo' => 'El conduce por la ciudad',
+                'exampel' => 'Er fährt durch die Stadt',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Caer',
+                'verb' => 'Fallen',
+                'ejemplo' => 'Los angeles malos caen del cielo',
+                'exampel' => 'Die Bösen Engeln fallen vom Himmel',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 2,
+                'nivel' => 1,
+                'verbo' => 'Encontrar',
+                'verb' => 'Finden',
+                'ejemplo' => 'Encontrar un cine es tu prioridad',
+                'exampel' => 'Ein Kino zu finden ist dein Priorität',
+                'created_at' => Carbon::now(),
+            ],
+
+            /** MODALES */
+
             [
                 'verbo_categoria_id' => 3,
                 'nivel' => 1,
