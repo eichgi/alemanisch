@@ -177,8 +177,152 @@ class VerbosTableSeeder extends Seeder
                 'exampel' => 'Der Journalist erzählt das Ereignis',
                 'created_at' => Carbon::now(),
             ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Faltar',
+                'verb' => 'Fehlen',
+                'ejemplo' => 'Nos falta dinero',
+                'exampel' => 'Wir fehlen Geld',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Seguir',
+                'verb' => 'Folgen',
+                'ejemplo' => 'Siguen a su líder',
+                'exampel' => 'Sie folgen ihrem Anführer',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Sentir',
+                'verb' => 'Fühlen',
+                'ejemplo' => 'Siento su inconformidad',
+                'exampel' => 'Ich fühle ihr Unmut',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Guiar',
+                'verb' => 'Führen',
+                'ejemplo' => 'La luz nos guía',
+                'exampel' => 'Das licht führt uns',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Pertenecer',
+                'verb' => 'Gehören',
+                'ejemplo' => 'El carro pertenece a Mario',
+                'exampel' => 'Das Auto gehört Mario',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 3,
+                'verbo' => 'Comerciar',
+                'verb' => 'Handeln',
+                'ejemplo' => 'Negociamos con drogas',
+                'exampel' => 'Wir handeln mit Drogen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 4,
+                'verbo' => 'Interesar',
+                'verb' => 'Interessieren',
+                'ejemplo' => 'El retrato interesa a todos',
+                'exampel' => 'Das Porträt interessiert alle',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 1,
+                'nivel' => 4,
+                'verbo' => 'Comprar',
+                'verb' => 'Kaufen',
+                'ejemplo' => 'Es época de compras navideñas',
+                'exampel' => 'Es ist Weihnachten Kaufen Epoche',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'poder (permiso)',
+                'verb' => 'dürfen',
+                'ejemplo' => '¿Puedo ir al baño?',
+                'exampel' => 'Darf ich in das Badezimmer gehen?',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'poder (capacidad)',
+                'verb' => 'können',
+                'ejemplo' => 'Ella puede leer el periódico',
+                'exampel' => 'Sie kann das Zeitung lesen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'gustar',
+                'verb' => 'mögen',
+                'ejemplo' => 'A los perros les gustan los huesos',
+                'exampel' => 'Hunde mögen Knochen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'tener que',
+                'verb' => 'müssen',
+                'ejemplo' => 'Tengo que ir a la escuela',
+                'exampel' => 'Ich muss zur Schule gehen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'deber',
+                'verb' => 'sollen',
+                'ejemplo' => 'Deberías correr más',
+                'exampel' => 'Du solltest mehr rennen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 3,
+                'nivel' => 1,
+                'verbo' => 'querer',
+                'verb' => 'wollen',
+                'ejemplo' => 'El niño quiere queso',
+                'exampel' => 'Das Kind willst Käse',
+                'created_at' => Carbon::now(),
+            ],
+
         ];
 
         DB::table('verbos')->insert($verbos);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
