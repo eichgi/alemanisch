@@ -11,14 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/conjugador', function () {
-    return view('ejercicios.conjugador');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::redirect('/', 'http://alemannisch.eichgi.com', 301);

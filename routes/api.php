@@ -5,6 +5,7 @@ use App\Pronombre;
 use App\PronombreTipo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,8 @@ Route::post('/getRecord', 'HistorialEjerciciosController@index');
 
 Route::get('/verbos/{categoria}/niveles', 'VerbosController@niveles');
 Route::get('/verbos/{categoria}/{nivel}', 'VerbosController@show');
+
+Route::post('/contacto', 'EmailController@newContactMessage');
 
 
 
