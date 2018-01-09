@@ -22,7 +22,7 @@ class SendEmail
     /**
      * Handle the event.
      *
-     * @param  SendEmailEvent  $event
+     * @param  SendEmailEvent $event
      * @return void
      */
     public function handle(SendEmailEvent $event)
@@ -32,7 +32,7 @@ class SendEmail
             $message
                 ->from($mail->sender['email'], $mail->sender['name'])
                 ->to($mail->recipient['email'], $mail->recipient['name'])
-                ->subject($mail->subject);
+                ->subject($mail->subject['recipient']);
         });
     }
 }
