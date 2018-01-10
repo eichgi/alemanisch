@@ -40,6 +40,9 @@ Route::post('/getRecord', 'HistorialEjerciciosController@index');
 Route::get('/verbos/{categoria}/niveles', 'VerbosController@niveles');
 Route::get('/verbos/{categoria}/{nivel}', 'VerbosController@show');
 
+Route::get('/sustantivos/{categoria}/niveles', 'SustantivosController@niveles');
+Route::get('/sustantivos/{categoria}/{nivel}', 'SustantivosController@show');
+
 Route::post('/contacto', 'EmailController@newContactMessage');
 
 

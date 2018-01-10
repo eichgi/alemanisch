@@ -88,6 +88,12 @@ class EjerciciosTableSeeder extends Seeder
                 'categoria' => 'modales',
                 'nivel' => 1,
             ],
+            /** SUSTANTIVOS */
+            [
+                'ejercicios_categorias_id' => 3,
+                'categoria' => 'personas',
+                'nivel' => 1,
+            ],
         ];
 
         DB::table('ejercicios')->insert($ejercicios);

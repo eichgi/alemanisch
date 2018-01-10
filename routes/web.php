@@ -11,4 +11,11 @@
 |
 */
 
-Route::redirect('/', 'http://alemannisch.eichgi.com', 301);
+use Illuminate\Http\Request;
+
+Route::redirect('/', 'http://alemanisch.xyz', 301);
+
+Route::get('/webhook', function (Request $request) {
+    Log::debug($request);
+    return response()->json('OK', 200);
+});

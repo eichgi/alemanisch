@@ -19,7 +19,8 @@ class DatabaseSeeder extends Seeder
         $this->call(UserTableSeeder::class);
         $this->call(VerbosCategoriasTableSeeder::class);
         $this->call(VerbosTiemposTableSeeder::class);
-        /*$this->call(VerbosNivelesTableSeeder::class);*/
         $this->call(VerbosTableSeeder::class);
+        $this->call(SustantivosTableSeeder::class);
+        $this->call(SustantivosCategoriasTableSeeder::class);
     }
 }
