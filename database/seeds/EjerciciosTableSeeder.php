@@ -94,6 +94,16 @@ class EjerciciosTableSeeder extends Seeder
                 'categoria' => 'personas',
                 'nivel' => 1,
             ],
+            [
+                'ejercicios_categorias_id' => 3,
+                'categoria' => 'personas',
+                'nivel' => 2,
+            ],
+            [
+                'ejercicios_categorias_id' => 3,
+                'categoria' => 'animales',
+                'nivel' => 1,
+            ],
         ];
 
         DB::table('ejercicios')->insert($ejercicios);
