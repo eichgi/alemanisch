@@ -16,6 +16,7 @@ class SustantivosCategoriasTableSeeder extends Seeder
             ['categoria' => 'Personas'],
             ['categoria' => 'Animales'],
             ['categoria' => 'Lugares'],
+            ['categoria' => 'Transporte'],
         ];
 
         DB::table('sustantivos_categorias')->insert($categorias);
