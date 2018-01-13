@@ -106,6 +106,11 @@ class EjerciciosTableSeeder extends Seeder
             ],
             [
                 'ejercicios_categorias_id' => 3,
+                'categoria' => 'animales',
+                'nivel' => 2,
+            ],
+            [
+                'ejercicios_categorias_id' => 3,
                 'categoria' => 'lugares',
                 'nivel' => 1,
             ],
