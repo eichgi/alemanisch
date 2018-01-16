@@ -653,6 +653,33 @@ class VerbosTableSeeder extends Seeder
                 'exampel' => 'Das Kind willst Käse',
                 'created_at' => Carbon::now(),
             ],
+            [
+                'verbo_categoria_id' => 4,
+                'nivel' => 1,
+                'verbo' => 'ser',
+                'verb' => 'sein',
+                'ejemplo' => 'Ser o no ser, esa es la cuestión',
+                'exampel' => 'Sein oder nicht sein, das ist hier die Frage',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 4,
+                'nivel' => 1,
+                'verbo' => 'tener',
+                'verb' => 'haben',
+                'ejemplo' => 'Yo tengo tiempo para aprender alemán',
+                'exampel' => 'Ich habe Zeit um Deutsch zu lernen',
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'verbo_categoria_id' => 4,
+                'nivel' => 1,
+                'verbo' => 'convertirse',
+                'verb' => 'werden',
+                'ejemplo' => 'A sabio sólo se llega a través de la experiencia',
+                'exampel' => 'Klug wird man nur aus Erfahrung',
+                'created_at' => Carbon::now(),
+            ],
 
         ];
 

@@ -15,13 +15,20 @@ class VerbosCategoriasTableSeeder extends Seeder
         $verbos_categorias = [
             [
                 'ejercicio_id' => 6,
-                'categoria' => 'Regulares'],
+                'categoria' => 'Regulares'
+            ],
             [
                 'ejercicio_id' => 7,
-                'categoria' => 'Irregulares'],
+                'categoria' => 'Irregulares'
+            ],
             [
                 'ejercicio_id' => 8,
-                'categoria' => 'Modales'],
+                'categoria' => 'Modales'
+            ],
+            [
+                'ejercicio_id' => 9,
+                'categoria' => 'Auxiliares'
+            ],
         ];
 
         DB::table('verbos_categorias')->insert($verbos_categorias);

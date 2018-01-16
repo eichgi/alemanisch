@@ -38,6 +38,7 @@ class EjerciciosTableSeeder extends Seeder
                 'categoria' => 'reflexivos',
                 'nivel' => 1,
             ],
+            /** VERBOS */
             [
                 'ejercicios_categorias_id' => 2,
                 'categoria' => 'regulares',
@@ -86,6 +87,11 @@ class EjerciciosTableSeeder extends Seeder
             [
                 'ejercicios_categorias_id' => 2,
                 'categoria' => 'modales',
+                'nivel' => 1,
+            ],
+            [
+                'ejercicios_categorias_id' => 2,
+                'categoria' => 'auxiliares',
                 'nivel' => 1,
             ],
             /** SUSTANTIVOS */
