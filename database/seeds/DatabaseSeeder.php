@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         $this->call(VerbosTableSeeder::class);
         $this->call(SustantivosTableSeeder::class);
         $this->call(SustantivosCategoriasTableSeeder::class);
+        $this->call(ConjugadorTableSeeder::class);
     }
 }

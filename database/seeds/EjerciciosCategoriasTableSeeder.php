@@ -16,7 +16,7 @@ class EjerciciosCategoriasTableSeeder extends Seeder
             ['categoria' => 'pronombres'],
             ['categoria' => 'verbos'],
             ['categoria' => 'sustantivos'],
-            ['categoria' => 'articulos'],
+            ['categoria' => 'conjugador'],
         ];
 
         DB::table('ejercicios_categorias')->insert($categorias);

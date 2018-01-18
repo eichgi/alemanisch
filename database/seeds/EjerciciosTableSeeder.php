@@ -125,6 +125,11 @@ class EjerciciosTableSeeder extends Seeder
                 'categoria' => 'transporte',
                 'nivel' => 1,
             ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'auxiliares',
+                'nivel' => 1,
+            ],
         ];
 
         DB::table('ejercicios')->insert($ejercicios);
