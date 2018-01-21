@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Conjugador;
 use App\Ejercicio;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -52,7 +53,7 @@ class ConjugadorController extends Controller
             ->join('verbos', 'verbos.id', '=', 'conjugador.verbos_id')
             ->where('categoria', ucfirst($categoria))
             ->where('conjugador.nivel', ucfirst($nivel))
-            ->select('pronombre', 'pronomen', 'conjugador.verbo', 'conjugador.verb')
+            ->select('conjugador.verbos_id', 'pronombre', 'pronomen', 'conjugador.verbo', 'conjugador.verb')
             ->get();
 
         $ejercicio = Ejercicio::
@@ -107,5 +108,11 @@ class ConjugadorController extends Controller
             ->max('nivel');
 
         return response()->json(compact('niveles'), 200);
+    }
+
+    public function mostrarVerbo($verbo)
+    {
+        $verbos = Conjugador::where('verbos_id', $verbo)->get();
+        return response()->json(compact('verbos'), 200);
     }
 }

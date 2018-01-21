@@ -45,6 +45,7 @@ Route::get('/sustantivos/{categoria}/{nivel}', 'SustantivosController@show');
 
 Route::get('/conjugador/{categoria}/niveles', 'ConjugadorController@niveles');
 Route::get('/conjugador/{categoria}/{nivel}', 'ConjugadorController@show');
+Route::get('/conjugador/{verbo}', 'ConjugadorController@mostrarVerbo');
 
 Route::post('/contacto', 'EmailController@newContactMessage');
 

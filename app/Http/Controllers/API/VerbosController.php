@@ -51,7 +51,7 @@ class VerbosController extends Controller
             ->join('verbos_categorias', 'verbos_categorias.id', '=', 'verbo_categoria_id')
             ->where('categoria', $categoria)
             ->where('nivel', $nivel)
-            ->select('verbo', 'verb', 'ejemplo', 'exampel')
+            ->select('verbo', 'verb', 'ejemplo', 'exampel', 'verbos.id')
             ->get();
 
         $ejercicio = Ejercicio::
