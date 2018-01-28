@@ -229,8 +229,8 @@ class VerbosTableSeeder extends Seeder
                 'nivel' => 3,
                 'verbo' => 'Comerciar',
                 'verb' => 'Handeln',
-                'ejemplo' => 'Negociamos con drogas',
-                'exampel' => 'Wir handeln mit Drogen',
+                'ejemplo' => 'Actuamos en el teatro',
+                'exampel' => 'Wir handeln in die Theater',
                 'created_at' => Carbon::now(),
             ],
             [

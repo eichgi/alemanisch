@@ -48,6 +48,7 @@ class ConjugadorController extends Controller
      */
     public function show($categoria, $nivel)
     {
+
         $verbos = DB::table('conjugador')
             ->join('verbos_categorias', 'verbos_categorias.id', '=', 'conjugador.verbos_categoria')
             ->join('verbos', 'verbos.id', '=', 'conjugador.verbos_id')
@@ -59,7 +60,10 @@ class ConjugadorController extends Controller
         $ejercicio = Ejercicio::
         where('categoria', $categoria)
             ->where('nivel', $nivel)
+            ->where('ejercicios_categorias_id', 4)
             ->first();
+
+        //dd($ejercicio);
 
         $ejercicio_id = $ejercicio->id;
 

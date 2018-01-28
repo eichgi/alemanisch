@@ -125,9 +125,40 @@ class EjerciciosTableSeeder extends Seeder
                 'categoria' => 'transporte',
                 'nivel' => 1,
             ],
+            /** CONJUGADOR */
             [
                 'ejercicios_categorias_id' => 4,
                 'categoria' => 'auxiliares',
+                'nivel' => 1,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'regulares',
+                'nivel' => 1,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'regulares',
+                'nivel' => 2,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'regulares',
+                'nivel' => 3,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'irregulares',
+                'nivel' => 1,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'irregulares',
+                'nivel' => 2,
+            ],
+            [
+                'ejercicios_categorias_id' => 4,
+                'categoria' => 'modales',
                 'nivel' => 1,
             ],
         ];
