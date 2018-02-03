@@ -27,5 +27,6 @@ class DatabaseSeeder extends Seeder
         $this->call(ConjugadorRegularesTableSeeder::class);
         $this->call(ConjugadorIrregularesTableSeeder::class);
         $this->call(ConjugadorTableSeeder::class);
+        $this->call(TiemposTableSeeder::class);
     }
 }

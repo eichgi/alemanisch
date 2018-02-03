@@ -114,9 +114,13 @@ class ConjugadorController extends Controller
         return response()->json(compact('niveles'), 200);
     }
 
-    public function mostrarVerbo($categoria, $nivel, $verbo)
+    public function mostrarVerbo(Request $request, $categoria, $nivel, $verbo)
     {
-        $verbos = Conjugador::where('verbos_id', $verbo)->get();
+        $verbos = Conjugador::
+        where('verbos_id', $verbo)
+            ->where('tiempo_id', $request->time)
+            ->get();
+
         $ejercicio = Ejercicio::
         where('categoria', $categoria)
             ->where('nivel', $nivel)

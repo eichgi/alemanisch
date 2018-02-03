@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateConjugadorPronombresTable extends Migration
+class CreateTiemposTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateConjugadorPronombresTable extends Migration
      */
     public function up()
     {
-        Schema::create('conjugador_pronombres', function (Blueprint $table) {
+        Schema::create('tiempos', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('pronombre');
-            $table->string('pronomen');
+            $table->string('nombre');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateConjugadorPronombresTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('conjugador_pronombres');
+        Schema::dropIfExists('tiempos');
     }
 }

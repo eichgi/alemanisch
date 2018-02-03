@@ -15,8 +15,6 @@ class ConjugadorTableSeeder extends Seeder
     {
         $verbos = [
 
-
-
             /** MODALES */
             [
                 'verbos_categoria' => 3,
@@ -27,6 +25,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'darf',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -37,6 +36,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'darfst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -47,6 +47,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'darf',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -57,6 +58,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'dürfen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -67,6 +69,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'dürft',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -77,6 +80,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'dürfen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -87,6 +91,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'kann',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -97,6 +102,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'kannst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -107,6 +113,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'kann',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -117,6 +124,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'können',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -127,6 +135,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'könnt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -137,6 +146,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'können',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -147,6 +157,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'gusta',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -157,6 +168,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'magst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -167,6 +179,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'magt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -177,6 +190,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'mögen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -187,6 +201,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'mögt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -197,6 +212,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'mögen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -207,6 +223,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'muß',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -217,6 +234,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'mußt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -227,6 +245,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'muß',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -237,6 +256,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'müßen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -247,6 +267,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'müßt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -257,6 +278,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'müßen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -267,6 +289,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'soll',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -277,6 +300,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sollst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -287,6 +311,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'soll',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -297,6 +322,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sollen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -307,6 +333,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sollt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -317,6 +344,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sollen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -327,6 +355,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'will',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -337,6 +366,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'willst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -347,6 +377,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'will',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -357,6 +388,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'wollen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -367,6 +399,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'wollt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 3,
@@ -377,6 +410,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'wollen',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             /** AUXILIARES */
             [
@@ -388,6 +422,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'bin',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -398,6 +433,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'bist',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -408,6 +444,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'ist',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -418,6 +455,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sind',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -428,6 +466,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'seid',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -438,6 +477,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'sind',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -448,6 +488,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'habe',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -458,6 +499,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'hast',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -468,6 +510,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'hat',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -478,6 +521,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'haben',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -488,6 +532,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'habt',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -498,6 +543,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'haben',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -508,6 +554,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'werde',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -518,6 +565,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'wirst',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -528,6 +576,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'wird',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -538,6 +587,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'werden',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -548,6 +598,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'werdet',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
             [
                 'verbos_categoria' => 4,
@@ -558,6 +609,7 @@ class ConjugadorTableSeeder extends Seeder
                 'verb' => 'werden',
                 'nivel' => 1,
                 'created_at' => Carbon::now(),
+                'tiempo_id' => 2,
             ],
         ];
 

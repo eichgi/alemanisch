@@ -22,6 +22,7 @@ class CreateConjugadorTable extends Migration
             $table->string('verbo');
             $table->string('verb');
             $table->integer('nivel');
+            $table->integer('tiempo_id')->nullable();
             $table->timestamps();
         });
     }
