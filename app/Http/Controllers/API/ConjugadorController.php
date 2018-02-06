@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Conjugador;
 use App\Ejercicio;
+use App\EjerciciosConjugador;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -123,9 +124,16 @@ class ConjugadorController extends Controller
 
         $ejercicio = Ejercicio::
         where('categoria', $categoria)
-            ->where('nivel', $nivel)
             ->where('ejercicios_categorias_id', 4)
+            ->where('tiempo_id', $request->time)
+            ->where('verbo_id', $verbo)
             ->first();
+
+        /*$ejercicio = EjerciciosConjugador::
+        where('categoria_id', $categoria)
+            ->where('tiempo_id', $request->time)
+            ->where('verbo_id', $verbo)
+            ->first();*/
         $ejercicio_id = $ejercicio->id;
 
         return response()->json(compact('verbos', 'ejercicio_id'), 200);
