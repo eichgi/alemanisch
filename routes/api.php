@@ -25,6 +25,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/registro', 'UserController@registro');
 Route::post('/login', 'UserController@login');
 
+Route::resource('/posts', 'PostController');
+
 Route::get('/pronombres/{tipo}', function ($tipo) {
     $pronombre_tipo = PronombreTipo::where('nombre', $tipo)->first();
     $pronombres = Pronombre::where('pronombre_tipo_id', $pronombre_tipo->id)->get();
@@ -51,6 +53,8 @@ Route::post('/conjugador/{categoria}/{nivel}/{verbo}', 'ConjugadorController@mos
 
 Route::post('/contacto', 'EmailController@newContactMessage');
 Route::get('/tenses', 'TiempoController@index');
+
+//Route::resource('/posts', 'PostController');
 
 
 
