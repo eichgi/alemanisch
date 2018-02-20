@@ -42,7 +42,7 @@ class PostController extends Controller
         $post->content = $request->contenido;
         $post->save();
 
-        return response()->json(['message' => 'Publicado exitosamente'], 200);
+        return response()->json(['status' => 1, 'message' => 'Publicado exitosamente'], 200);
     }
 
     /**
@@ -77,7 +77,12 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $post = Post::find($id);
+        $post->title = $request->title;
+        $post->content = $request->contenido;
+        $post->save();
+
+        return response()->json(['status' => 1, 'message' => 'Publicación actualizada'], 200);
     }
 
     /**
