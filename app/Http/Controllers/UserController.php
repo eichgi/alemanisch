@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
@@ -29,7 +30,12 @@ class UserController extends Controller
     {
         $email = $request->email;
         $password = $request->password;
-        $user = User::where('email', '=', $email)->first();
+        $user = DB::table('users')
+            ->join('model_has_roles', 'model_id', '=', 'users.id')
+            ->join('roles', 'roles.id', '=', 'role_id')
+            ->select('users.id', 'users.name', 'users.password', 'email', 'api_token', 'users.created_at', 'roles.name AS role')
+            ->where('email', '=', $email)
+            ->first();
 
         if (!$user) {
             $status = 'Credenciales incorrectas';
@@ -37,6 +43,7 @@ class UserController extends Controller
         }
 
         $hashedPassword = $user->password;
+        unset($user->password);
 
         if (Hash::check($password, $hashedPassword)) {
             $status = 'Inicio exitoso';

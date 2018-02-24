@@ -14,16 +14,23 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
-        $admin = [
+        $users = [
             [
                 'name' => 'Administrador',
-                'email' => 'admin@admin.com',
-                'password' => Hash::make('password'),
+                'email' => 'admin@alemanisch.xyz',
+                'password' => Hash::make('31chg1'),
+                'api_token' => str_random(60),
+                'created_at' => Carbon::now(),
+            ],
+            [
+                'name' => 'Miembro',
+                'email' => 'miembro@alemanisch.xyz',
+                'password' => Hash::make('m13mbr0'),
                 'api_token' => str_random(60),
                 'created_at' => Carbon::now(),
             ]
         ];
 
-        DB::table('users')->insert($admin);
+        DB::table('users')->insert($users);
     }
 }
