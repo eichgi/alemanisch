@@ -31,5 +31,6 @@ class DatabaseSeeder extends Seeder
         $this->call(ConjugadorTableSeeder::class);
         $this->call(TiemposTableSeeder::class);
         $this->call(EjerciciosConjugadorTableSeeder::class);
+        $this->call(PostsTableSeeder::class);
     }
 }
